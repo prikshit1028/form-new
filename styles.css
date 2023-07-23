@@ -1,0 +1,79 @@
+/* h3{
+    font-family: 'Cinzel', serif;
+    font-weight:lighter;
+    font-size: 30px;
+    border:2px solid red;
+    height:50px;
+    background-color:brown;
+    opacity: 0.4;
+    position: absolute;
+    top:126px;
+    left:71px;
+    tet
+
+} */
+#main-bg{
+    height:100vh;
+    width:32vw;
+    border:2px solid purple;
+    border-radius: 2px;
+}
+body{
+    margin:0px;
+    border:1px solid green;
+    display: flex;
+    
+}
+div >  img{
+    height:85px;
+    width:58px;
+    /* border:10px solid brown; */
+    /* position: absolute;
+    left:250px;
+    top:150px;
+    background-color: blueviolet; */
+}
+img + div{
+    /* border:2px solid blue; */
+    width:23.21vw;
+    text-align: center;
+    /* padding-right: 40px; */
+    padding-left: 110px;
+    display: flex;
+    
+    height:fit-content;
+    position: absolute;
+    font-size: 31px;
+    top:150px;
+    /* left:100px; */
+    font-family: 'Dancing Script', cursive;
+    color:aliceblue;
+    /* margin:20px; */
+    background-color: rgba(0, 0, 0, 0.4);
+    
+}
+ div > img{
+    /* border:1px solid black; */
+    margin-top: 10px;
+    margin-left: 4px;
+    margin-right:4px;
+    margin-bottom: 0px;
+}
+div#newid{
+    border: 3px solid rgb(16, 13, 219);
+    width:78vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color:rgba(43, 209, 6, 0.062);
+    padding-top: 50px;
+    /* box-sizing: border-box; */
+}
+
+form{
+    border:2px solid palevioletred;
+    background-color: white;
+}
+p{
+    font-weight: bold;
+    font-size: 18px;
+}
