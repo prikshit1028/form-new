@@ -10,17 +10,48 @@
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 <body>
-  
-    <img id = "main-bg" src="./bundo-kim-vYcADOyUrdA-unsplash.jpg" alt="something something">
     <div>
-        <img src="./1531730612.svg" alt="nothn">
+    <img id = "main-bg" src="./bundo-kim-vYcADOyUrdA-unsplash.jpg" alt="something something">
+    <div id = "icon">
+        <img id="logo" src="./1531730612.svg" alt="nothn">
         <h3>Book Cafe</h3>
+    </div>
     </div>
     <div id="newid">
         <p>Fill this form to book a seat at your preferred timings! <br>Get ready to immerse yourself in the world of books and coffee for hours.</p>
         <form action="" method="post">
+            <div id="ultimateFlex1">
+            <div id="firstFlex">
             <label for="firstname">First Name</label>
-            <input type="text" name="First-name" id="firstname">
+            <input type="text" name="First-name" id="firstname" placeholder="eg.James" required>
+            </div>
+            <div id="secondFlex">
+            <label for="lastname">Last Name</label>
+            <input type="text" name="Last-name" id="lastname" placeholder="eg.Smith" required><br>
+            </div>
+            </div>
+            <div id="ultimateFlex2">
+            <div id="thirdFlex">
+            <label for="email">Email</label>
+            <input type="email" name="email-id" id="email" placeholder="eg.benstiller@gmail.com" required>
+            </div>
+            <div id="fourthFlex">
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="contact-number" id="phone" placeholder="eg.987654321" required><br>
+            </div>
+            </div>
+            <div id="ultimateFlex3">
+            <div id="fifthFlex">
+            <label for="date">Date</label>
+            <input type= "datetime-local" name="time-date" id="date" required>
+            </div>
+            <div id="sixthFlex">
+            <label for="remarks">Any additional info</label>
+            <textarea name="additional info" id="remarks" ></textarea><br>
+            </div>
+            </div>
+            <button type="submit">Confirm</button>
+            
         </form>
     </div>
     
