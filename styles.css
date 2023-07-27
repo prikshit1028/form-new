@@ -14,8 +14,8 @@
 } */
 #main-bg{
     height:100vh;
-    width:32%;
-    /* border:2px solid purple; */
+    width:32vw;
+    border:1px solid purple;
     border-radius: 2px;
     position: relative;
 }
@@ -25,7 +25,7 @@ body{
     display: flex;
     
 }
-#logo{
+div > img{
     height:85px;
     width:58px;
     /* border:10px solid brown; */
@@ -34,12 +34,65 @@ body{
     top:150px;
     background-color: blueviolet; */
 }
-div#icon{
+@media (min-width:651px){
+    div#newid{
+        width:78vw;
+    }
+}
+@media (min-width: 1396px){
+img + div{
+    width:30%;
+    /* padding-left: 8%; */
+}}
+@media (min-width:1293px) and (max-width:1395px){
+    img + div{width: 32%;
+        padding-left: 8%;
+}}
+@media (min-width: 1000px) and (max-width: 1292px) {
+    img + div{
+        width: 32vw;
+    }
+} 
+@media (min-width: 651px) and (max-width:999px){
+    img + div{
+        width:32%;
+    }
+}
+@media(max-width:650px){
+body{
+    flex-direction: column;
+}
+#ultimateFlex1, #ultimateFlex2, #ultimateFlex3{
+    flex-direction: column;
+    gap:0px;
+    margin:0px;
+    height:fit-content;
+    
+}
+input{
+    margin-left:0px;
+}
+#main-bg{
+    width:100%;
+    height:70vh;
+}
+img + div{
+    width:100%;
+    padding-left:22%;
+}
+
+
+
+
+}
+img + div{
     /* border:2px solid blue; */
-    width:32%;
+    /* width:29%; */
+    box-sizing: border-box;
+    /* padding-left: 8%; */
     text-align: center;
     /* padding-right: 40px; */
-    padding-left: 110px;
+    /* padding-left: 110px; */
     display: flex;
     
     height:fit-content;
@@ -53,7 +106,7 @@ div#icon{
     background-color: rgba(0, 0, 0, 0.4);
     
 }
- #logo{
+ div > img{
     /* border:1px solid black; */
     margin-top: 10px;
     margin-left: 4px;
@@ -61,8 +114,8 @@ div#icon{
     margin-bottom: 0px;
 }
 div#newid{
-    /* border: 3px solid rgb(16, 13, 219); */
-    width:78vw;
+    border: 1px solid rgb(16, 13, 219);
+    /* width:78vw; */
     margin-top: 0;
     margin-bottom: 0;
     background-color:rgba(43, 209, 6, 0.041);
@@ -106,7 +159,7 @@ cursor: pointer;
 /* box-shadow: 0 2px 4px orange; */
 background-color:rgb(211, 92, 7);
 }
-input:active, input:focus{
+input:active, input:focus, textarea:active, textarea:focus{
     /* appearance: none; */
     border: 1px solid blue;
     outline: none;
